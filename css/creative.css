@@ -5,8 +5,9 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
+
 
 hr {
   max-width: 50px;
@@ -60,7 +61,7 @@ section {
 
 ::-moz-selection {
   color: #fff;
-  background: #537fc0;
+  background: #537fc0
   text-shadow: none;
 }
 
@@ -130,7 +131,7 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(225, 225, 225, 0.7);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #fff;
@@ -140,11 +141,11 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.7); *맨 위 카테고리1 rgba(255, 255, 255, 0.7) rgba(83, 127, 192, 0.7)
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: #fff ; *맨 위 카테고리2 #fff #537fc0
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
